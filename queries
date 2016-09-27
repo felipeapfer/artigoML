@@ -1,0 +1,50 @@
+create table Match_Raw as select * from match where home_player_X1 is not null
+and home_player_Y1 is not null
+and  home_player_X2 is not null and home_player_Y2 is not null
+and  home_player_X3 is not null and home_player_Y3 is not null
+and  home_player_X4 is not null and home_player_Y4 is not null
+and  home_player_X5 is not null and home_player_Y5 is not null
+and  home_player_X6 is not null and home_player_Y6 is not null
+and  home_player_X7 is not null and home_player_Y7 is not null
+and  home_player_X8 is not null and home_player_Y8 is not null
+and  home_player_X9 is not null and home_player_Y9 is not null
+and  home_player_X10 is not null and home_player_Y10 is not null
+and  home_player_X11 is not null and home_player_Y11 is not null
+and  away_player_X1 is not null and away_player_Y1 is not null
+and  away_player_X2 is not null and away_player_Y2 is not null
+and  away_player_X3 is not null and away_player_Y3 is not null
+and  away_player_X4 is not null and away_player_Y4 is not null
+and  away_player_X5 is not null and away_player_Y5 is not null
+and  away_player_X6 is not null and away_player_Y6 is not null
+and  away_player_X7 is not null and away_player_Y7 is not null
+and  away_player_X8 is not null and away_player_Y8 is not null
+and  away_player_X9 is not null and away_player_Y9 is not null
+and  away_player_X10 is not null and away_player_Y10 is not null
+and  away_player_X11 is not null and away_player_Y11 is not null
+and home_team_goal is not null and away_team_goal is not null
+and home_player_1 is not null
+and home_player_2 is not null
+and home_player_3 is not null
+and home_player_4 is not null
+and home_player_5 is not null
+and home_player_6 is not null
+and home_player_7 is not null
+and home_player_8 is not null
+and home_player_9 is not null
+and home_player_10 is not null
+and home_player_11 is not null
+and away_player_1 is not null
+and away_player_2 is not null
+and away_player_3 is not null
+and away_player_4 is not null
+and away_player_5 is not null
+and away_player_6 is not null
+and away_player_7 is not null
+and away_player_8 is not null
+and away_player_9 is not null
+and away_player_10 is not null
+and away_player_11 is not null
+and  B365H is not null and B365D is not null and B365A is not null ;
+
+
+
